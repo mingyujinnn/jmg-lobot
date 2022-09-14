@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Ni#wF~zo|UdGDT|Ni}2!">STEP</variable></variables><block type="device_show_leds" id="k|Sft!((Kx$]{Hc.L1Dr" disabled="true" x="-337" y="-622"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block><block type="device_gesture_event" id="ARAPz:Ab)dIlY*M:TJyb" x="85" y="-637"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_print_message" id="OHc1mLQ)}8eWywY=`sqw"><value name="text"><shadow type="text" id="WV.8bXiMb%6[0N7G.Avn"><field name="TEXT">shake</field></shadow></value></block></statement></block><block type="device_button_event" id="@3Bng9i04VqVJPj]!-O%" x="-651" y="-506"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_repeat_ext" id="D(Vy8.~{qpbpRp;GtDO!"><value name="TIMES"><shadow type="math_whole_number" id="|vixme26ABrvLAom0Ij."><field name="NUM">4</field></shadow></value><statement name="DO"><block type="basic_show_icon" id="dLZ2/Ua(FW8_Xfbx(kjT"><field name="i">IconNames.Heart</field><next><block type="device_clear_display" id="q$722-jG7r(JSgGapF|/"><next><block type="device_print_message" id="}}Ahu6cnkFwudL/3pzO+"><value name="text"><shadow type="text" id="lT]@+@/{RgD4eeTt%msW"><field name="TEXT">LOVE</field></shadow></value></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id="YLtxP7Ni?BrC-T:A%Lhf" x="-160" y="-418"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="g:v=s{nhGko_+2w/YuC`"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement></block><block type="device_button_event" id="CBi.T:F2|IrMc+_^%Y)s" x="0" y="0"><field name="NAME">Button.AB</field></block></xml>
